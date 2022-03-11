@@ -1,0 +1,92 @@
+{
+  "student": [
+    {
+      "name": "Самарбекова",
+      "surname": "Чынара",
+      "number": "050000000",
+      "weekKPI": "99",
+      "monthKPI": "99",
+      "id": 5
+    },
+    {
+      "name": "Хакимова",
+      "surname": "Беназир",
+      "number": "0500000000",
+      "weekKPI": "99",
+      "monthKPI": "99",
+      "id": 6
+    },
+    {
+      "name": "Мирдинов",
+      "surname": "Мирдин",
+      "number": "050000000",
+      "weekKPI": "100",
+      "monthKPI": "100",
+      "id": 7
+    },
+    {
+      "name": "Эльдияров",
+      "surname": "Эльдияр",
+      "number": "05000000",
+      "weekKPI": "100",
+      "monthKPI": "100",
+      "id": 8
+    },
+    {
+      "name": "Эльдосов",
+      "surname": "Эльдос",
+      "number": "050000000",
+      "weekKPI": "100",
+      "monthKPI": "100",
+      "id": 9
+    },
+    {
+      "name": "Данияров",
+      "surname": "Данияр",
+      "number": "07007777777",
+      "weekKPI": "100",
+      "monthKPI": "100",
+      "id": 10
+    },
+    {
+      "name": "Эрадилов",
+      "surname": "Эрадил",
+      "number": "070000000",
+      "weekKPI": "99",
+      "monthKPI": "99",
+      "id": 11
+    },
+    {
+      "name": "Абсаматов",
+      "surname": "Абсамат",
+      "number": "055555555",
+      "weekKPI": "100",
+      "monthKPI": "100",
+      "id": 12
+    },
+    {
+      "name": "Адинова",
+      "surname": "Адина",
+      "number": "070000000",
+      "weekKPI": "100",
+      "monthKPI": "100",
+      "id": 13
+    },
+    {
+      "name": "Иванов",
+      "surname": "Иван",
+      "number": "05006667554",
+      "weekKPI": "85",
+      "monthKPI": "66",
+      "id": 14
+    },
+    {
+      "name": "Джумадилова",
+      "surname": "Алина",
+      "number": "+79800540300",
+      "weekKPI": "67",
+      "monthKPI": "77",
+      "id": 15
+    }
+  ]
+}

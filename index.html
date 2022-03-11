@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--icon in browser-->
+    <link
+      rel="shortcut icon"
+      href="https://cdn.iconscout.com/icon/premium/png-512-thumb/kpi-1967135-1668353.png"
+      type="image/png"
+    />
+    <title>KPI</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <!--logo-->
+    <div>
+      <img
+        src="https://cdn.iconscout.com/icon/premium/png-512-thumb/kpi-1967135-1668353.png"
+        alt="logo"
+        width="5%"
+        height="5%"
+      />
+    </div>
+
+    <!--Это я взяла из гугла, чтобы сделать горизонтальную линию-->
+    <!-- hr-специальный тег для линии, данный тег является блочным-->
+
+    <p>
+      <hr width="60%" color="pink" align="left" size="3" />
+    </p>
+
+    <!--form start-->
+
+    <button class="btn btn-add"></button>
+    <form class="form">
+      <input class="inp name-inp" type="text" placeholder="Фамилия студента" />
+      <input class="inp surname-inp" type="text" placeholder="Имя студента" />
+      <input
+        class="inp number-inp"
+        placeholder="Номер телефона"
+      />
+      <input
+        class="inp week-inp"
+        placeholder="Введите показатели KPI за неделю"
+      />
+      <input
+        class="inp month-inp"
+        placeholder="Введите показатели KPI за месяц "
+      />
+      <button class="btn">Добавить в список</button>
+    </form>
+    <!--form end-->
+
+    <p>
+      <hr width="60%" color="pink" align="left" size="3" />
+    </p>
+
+    <!--search form start-->
+    <form class="search-form">
+      <input id="search" type="search" placeholder="Поиск студента" />
+    </form>
+    
+    <!--search form end-->
+    <p>
+      <hr width="60%" color="pink" align="left" size="3" />
+    </p>
+    <div class="student-list"></div>
+
+    <div class="modal-edit"></div>
+
+    <div class="pagination"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>

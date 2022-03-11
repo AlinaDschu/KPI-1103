@@ -1,0 +1,164 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: bisque;
+}
+
+.search-form {
+  border-radius: 2px;
+  border: 2px solid pink;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 3px;
+  margin: 30px;
+}
+
+#search {
+  width: 100%;
+  height: 30px;
+}
+
+.form {
+  border-radius: 5px;
+  border: 2px solid pink;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 10px;
+  margin: 0 auto 20px;
+}
+
+.inp {
+  border: 1px solid pink;
+  background-color: rgb(250, 229, 229);
+  border-radius: 20px;
+  height: 30px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 600px;
+}
+
+.inp::-webkit-input-placeholder {
+  color: black;
+}
+
+.student-list {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.student {
+  width: 280px;
+  text-align: center;
+  border: 1px solid rgb(12, 12, 12);
+  color: black;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.btn-delete {
+  border-color: rgb(194, 160, 160);
+  background-color: rgb(231, 148, 217);
+}
+
+.btn-edit {
+  border-color: rgb(194, 160, 160);
+  background-color: rgb(231, 148, 217);
+}
+
+.btn-save {
+  border-color: rgb(194, 160, 160);
+  background-color: rgb(231, 148, 217);
+}
+
+.btn-escape {
+  border-color: rgb(194, 160, 160);
+  background-color: rgb(231, 148, 217);
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  border-color: pink;
+  background-color: pink;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.btn:hover {
+  background-color: rgb(219, 34, 71);
+  color: white;
+}
+
+.modal-edit {
+  position: absolute;
+  display: none;
+  left: 40%;
+  top: 45%;
+  flex-direction: column;
+  background-color: pink;
+  width: 300px;
+}
+
+.inp-modal {
+  border: 1px solid pink;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: white;
+  background-color: rgb(243, 148, 148);
+}
+
+.student-modal {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(235, 121, 121);
+  border: 1px solid pink;
+  color: white;
+}
+
+.page-item {
+  color: rgb(104, 26, 52);
+  background-color: rgb(172, 96, 138);
+  font-size: 28px;
+  border: 1px solid rgb(211, 79, 140);
+  text-decoration: none;
+}
+
+.page-item.active {
+  color: rgb(173, 108, 124);
+}
+
+/* Пагинация -постраничный вывод данных*/
+.pagination {
+  /* background-color: black; */
+  width: 80px;
+  margin: 0 auto;
+}
+
+.btn-add {
+  display: none;
+  margin-bottom: 30px;
+}
+
+/* Адаптивная вёрстка*/
+@media (max-width: 450px) {
+  .form {
+    display: none;
+  }
+  .btn-add {
+    display: block;
+  }
+}
